@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
   <title>XECryption Decrypter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style type="text/css">
   body {
     background-color:#bafbee;
