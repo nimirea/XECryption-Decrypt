@@ -44,7 +44,7 @@
 
   ?>
   <h2>Decode A Message</h2>
-  <form action="<?php print basename($_SERVER['REQUEST_URI']); ?>" method="post">
+  <form action="<?php print $_SERVER['REQUEST_URI']; ?>" method="post">
     <textarea name="encrypted">Replace this text with your encrypted message.</textarea>
     <p>Note: you can <a href="https://www.hackthissite.org/missions/realistic/6/encryption.php">generate your own coded messages using this cipher</a>.</p>
     <input type="submit"/>
